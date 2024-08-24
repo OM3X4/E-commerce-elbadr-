@@ -41,7 +41,7 @@ function App() {
           <div className="flex justify-between items-center">
             <div className="container flex justify-around items-center">
               <Link to={"/"}>
-                <img src="/images/logo.png" alt="" className=" size-[100px]" />
+                <img src="./images/logo.png" alt="" className=" size-[100px]" />
               </Link>
               <div className="flex justify-between items-center w-fit ml-7">
                 <input
