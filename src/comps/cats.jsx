@@ -9,17 +9,17 @@ function Cats(props) {
   function image(value) {
     switch (value) {
       case "ram":
-        return "/images/ram.png";
+        return "./images/ram.png";
       case "gpu":
-        return "/images/gpu.png";
+        return "./images/gpu.png";
       case "cpu":
-        return "/images/cpu.png";
+        return "./images/cpu.png";
       case "board":
-        return "/images/board.png";
+        return "./images/board.png";
       case "monitor":
-        return "/images/monitor2.png";
+        return "./images/monitor2.png";
       default:
-        return "/images/place.png";
+        return "./images/place.png";
     }
   }
 
