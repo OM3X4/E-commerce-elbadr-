@@ -6,7 +6,7 @@ import { IoMdCall } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
 import { useState, useEffect, useRef } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import cpus from "./Data/cpus";
 import gpus from "./Data/gpus";
