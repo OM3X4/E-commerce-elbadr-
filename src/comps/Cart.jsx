@@ -26,7 +26,7 @@ function Cart({data , cartsetter}) {
             setPrice(prev => prev + item.price)
       })
       : null
-    },[])
+    },[ data ])
 
 
 
