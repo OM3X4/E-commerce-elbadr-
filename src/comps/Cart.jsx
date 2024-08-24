@@ -35,17 +35,17 @@ function Cart({data , cartsetter}) {
     function image(value){
         switch(value){
             case "ram":
-                return "/images/ram.png";
+                return "./images/ram.png";
             case "gpu" :
-                return "/images/gpu.png";
+                return "./images/gpu.png";
             case "cpu":
-                return "/images/cpu.png";
+                return "./images/cpu.png";
             case "board":
-                return "/images/motherboard.png";
+                return "./images/motherboard.png";
             case "monitor":
-               return "/images/monitor2.png";
+               return "./images/monitor2.png";
             default:
-                "/images/place.png"
+                "./images/place.png"
         }
     }
 
